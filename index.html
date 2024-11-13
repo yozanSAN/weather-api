@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.weather-app {
+    width: 320px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.weather-info {
+    padding: 20px 0;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.weather-condition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 2.5rem;
+    color: #FF8C00;
+    margin-bottom: 5px;
+}
+
+.condition {
+    font-size: 1rem;
+    color: #333;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+</style>
+<body>
+    <div class="weather-app">
+        <header>
+            <h1>Weather Forecast</h1>
+        </header>
+        <div class="weather-info">
+            <h2 class="location">New York, USA</h2>
+            <p class="date">November 14, 2024</p>
+            <div class="weather-condition">
+                <p class="temperature">18°C</p>
+                <p class="condition">Sunny</p>
+            </div>
+        </div>
+        <footer>
+            <p>Sample Weather App - Data not real</p>
+        </footer>
+    </div>
+</body>
+</html>
